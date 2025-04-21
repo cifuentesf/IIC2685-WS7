@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator/kinect_simulator" "TARGETS" "kinect_simulator" "DESTINATION" "lib/very_simple_robot_simulator")

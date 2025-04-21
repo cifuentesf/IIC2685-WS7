@@ -1,0 +1,5 @@
+# Formato: x y theta (en metros y radianes)
+1.0 0.0 1.5708
+1.0 1.0 3.1416
+0.0 1.0 -1.5708
+0.0 0.0 0.0

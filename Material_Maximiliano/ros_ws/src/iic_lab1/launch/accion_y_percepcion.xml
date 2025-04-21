@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find iic_lab1)/launch/avanzar_y_rotar.xml"/>
+    <include file="$(find-pkg-share very_simple_robot_simulator)/launch/run_all.xml" /> 
+    <node pkg="iic_lab1" exec="obstacle_detector.py" name="obstacle_detector"/>
+
+</launch>

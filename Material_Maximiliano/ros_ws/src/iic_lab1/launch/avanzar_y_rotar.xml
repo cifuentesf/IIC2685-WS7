@@ -1,0 +1,11 @@
+<launch>
+    <include file="$(find-pkg-share very_simple_robot_simulator)/launch/run_all.xml" /> 
+    <node pkg="very_simple_robot_simulator" type="simulator_node" name="simulator"/>
+    
+
+    <node pkg="iic_lab1" exec="dead_reckoning_nav.py" name="dead_reckoning_nav"/>
+    
+    <node pkg="iic_lab1" exec="pose_loader.py" name="pose_loader">
+        <param name="pose_file" value="$(find iic_lab1)/config/square_poses.txt"/>
+    </node>
+</launch>

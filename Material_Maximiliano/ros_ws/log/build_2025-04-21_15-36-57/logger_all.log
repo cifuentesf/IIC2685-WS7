@@ -1,0 +1,282 @@
+[0.253s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.253s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f7b6ff9b550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7b6ff9afe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7b6ff9afe0>>, mixin_verb=('build',))
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.778s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mcifuentesf/ros_ws'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ros'
+[0.797s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmd_vel_mux' with type 'ros.ament_cmake' and name 'cmd_vel_mux'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extensions ['ignore', 'ignore_ament_install']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extension 'ignore'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extension 'ignore_ament_install'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extensions ['colcon_pkg']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extension 'colcon_pkg'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extensions ['colcon_meta']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extension 'colcon_meta'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extensions ['ros']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/iic_lab1) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iic_lab1' with type 'ros.ament_cmake' and name 'iic_lab1'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ros'
+[0.800s] DEBUG:colcon.colcon_core.package_identification:Package 'src/very_simple_robot_simulator' with type 'ros.ament_cmake' and name 'very_simple_robot_simulator'
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.833s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mcifuentesf/ros_ws/install/pkg_control_1' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.836s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/mcifuentesf/ros_ws/install/pkg_control_1' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.838s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mcifuentesf/ros_ws/install
+[0.839s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mcifuentesf/ros2_ws/install
+[0.846s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1709 installed packages in /opt/ros/humble
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_args' from command line to 'None'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_target' from command line to 'None'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_clean_cache' from command line to 'False'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_clean_first' from command line to 'False'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_force_configure' from command line to 'False'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'ament_cmake_args' from command line to 'None'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'catkin_cmake_args' from command line to 'None'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.172s] DEBUG:colcon.colcon_core.verb:Building package 'cmd_vel_mux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcifuentesf/ros_ws/build/cmd_vel_mux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcifuentesf/ros_ws/install/cmd_vel_mux', 'merge_install': False, 'path': '/home/mcifuentesf/ros_ws/src/cmd_vel_mux', 'symlink_install': True, 'test_result_base': None}
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'cmake_target' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'cmake_clean_cache' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'cmake_clean_first' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'cmake_force_configure' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'ament_cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'catkin_cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'iic_lab1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.173s] DEBUG:colcon.colcon_core.verb:Building package 'iic_lab1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcifuentesf/ros_ws/build/iic_lab1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcifuentesf/ros_ws/install/iic_lab1', 'merge_install': False, 'path': '/home/mcifuentesf/ros_ws/src/iic_lab1', 'symlink_install': True, 'test_result_base': None}
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_target' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.173s] DEBUG:colcon.colcon_core.verb:Building package 'very_simple_robot_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator', 'merge_install': False, 'path': '/home/mcifuentesf/ros_ws/src/very_simple_robot_simulator', 'symlink_install': True, 'test_result_base': None}
+[1.173s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.175s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mcifuentesf/ros_ws/src/cmd_vel_mux' with build type 'ament_cmake'
+[1.175s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mcifuentesf/ros_ws/src/cmd_vel_mux'
+[1.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mcifuentesf/ros_ws/src/iic_lab1' with build type 'ament_cmake'
+[1.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mcifuentesf/ros_ws/src/iic_lab1'
+[1.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mcifuentesf/ros_ws/src/very_simple_robot_simulator' with build type 'ament_cmake'
+[1.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mcifuentesf/ros_ws/src/very_simple_robot_simulator'
+[1.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcifuentesf/ros_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/cmd_vel_mux -- -j8 -l8
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcifuentesf/ros_ws/build/iic_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/iic_lab1 -- -j8 -l8
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/very_simple_robot_simulator -- -j8 -l8
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcifuentesf/ros_ws/build/iic_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/iic_lab1 -- -j8 -l8
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcifuentesf/ros_ws/build/iic_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/iic_lab1
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcifuentesf/ros_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/cmd_vel_mux -- -j8 -l8
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcifuentesf/ros_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/cmd_vel_mux
+[1.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iic_lab1)
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcifuentesf/ros_ws/build/iic_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/iic_lab1
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1' for CMake module files
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1' for CMake config files
+[1.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('iic_lab1', 'cmake_prefix_path')
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/hook/cmake_prefix_path.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/hook/cmake_prefix_path.dsv'
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/hook/cmake_prefix_path.sh'
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/lib'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/bin'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/lib/pkgconfig/iic_lab1.pc'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/lib/python3.10/site-packages'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/bin'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.ps1'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.dsv'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.sh'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.bash'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.zsh'
+[1.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcifuentesf/ros_ws/install/iic_lab1/share/colcon-core/packages/iic_lab1)
+[1.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iic_lab1)
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1' for CMake module files
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1' for CMake config files
+[1.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('iic_lab1', 'cmake_prefix_path')
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/hook/cmake_prefix_path.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/hook/cmake_prefix_path.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/hook/cmake_prefix_path.sh'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/lib'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/bin'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/lib/pkgconfig/iic_lab1.pc'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/lib/python3.10/site-packages'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/iic_lab1/bin'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.dsv'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.sh'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.bash'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.zsh'
+[1.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcifuentesf/ros_ws/install/iic_lab1/share/colcon-core/packages/iic_lab1)
+[1.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_vel_mux)
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux' for CMake module files
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcifuentesf/ros_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/cmd_vel_mux
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux' for CMake config files
+[1.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'cmake_prefix_path')
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.ps1'
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.sh'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/lib'
+[1.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'ld_library_path_lib')
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.dsv'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.sh'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/bin'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/lib/pkgconfig/cmd_vel_mux.pc'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/lib/python3.10/site-packages'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/bin'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.ps1'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.sh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.bash'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.zsh'
+[1.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/colcon-core/packages/cmd_vel_mux)
+[1.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_vel_mux)
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux' for CMake module files
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux' for CMake config files
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'cmake_prefix_path')
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.ps1'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.sh'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/lib'
+[1.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'ld_library_path_lib')
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.sh'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/bin'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/lib/pkgconfig/cmd_vel_mux.pc'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/lib/python3.10/site-packages'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/bin'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.sh'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.bash'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.zsh'
+[1.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/colcon-core/packages/cmd_vel_mux)
+[1.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/very_simple_robot_simulator -- -j8 -l8
+[1.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/very_simple_robot_simulator
+[1.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(very_simple_robot_simulator)
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator' for CMake module files
+[1.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/very_simple_robot_simulator
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator' for CMake config files
+[1.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('very_simple_robot_simulator', 'cmake_prefix_path')
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.dsv'
+[1.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.sh'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/bin'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/pkgconfig/very_simple_robot_simulator.pc'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/python3.10/site-packages'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/bin'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.sh'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.bash'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.zsh'
+[1.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/colcon-core/packages/very_simple_robot_simulator)
+[1.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(very_simple_robot_simulator)
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator' for CMake module files
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator' for CMake config files
+[1.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('very_simple_robot_simulator', 'cmake_prefix_path')
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.ps1'
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.sh'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/bin'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/pkgconfig/very_simple_robot_simulator.pc'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/python3.10/site-packages'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/bin'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.ps1'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.sh'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.bash'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.zsh'
+[1.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/colcon-core/packages/very_simple_robot_simulator)
+[1.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.798s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.824s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.824s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.824s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.824s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.826s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.826s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcifuentesf/ros_ws/install/local_setup.ps1'
+[1.828s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mcifuentesf/ros_ws/install/_local_setup_util_ps1.py'
+[1.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcifuentesf/ros_ws/install/setup.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcifuentesf/ros_ws/install/local_setup.sh'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mcifuentesf/ros_ws/install/_local_setup_util_sh.py'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcifuentesf/ros_ws/install/setup.sh'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcifuentesf/ros_ws/install/local_setup.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcifuentesf/ros_ws/install/setup.bash'
+[1.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcifuentesf/ros_ws/install/local_setup.zsh'
+[1.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcifuentesf/ros_ws/install/setup.zsh'

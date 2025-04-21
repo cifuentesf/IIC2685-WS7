@@ -1,0 +1,4 @@
+source;share/iic_lab1/local_setup.bash
+source;share/iic_lab1/local_setup.dsv
+source;share/iic_lab1/local_setup.sh
+source;share/iic_lab1/local_setup.zsh

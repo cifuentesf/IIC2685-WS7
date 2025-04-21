@@ -1,0 +1,32 @@
+[0.040s] Invoking command in '/home/mcifuentesf/ros_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/cmd_vel_mux -- -j8 -l8
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target cmd_vel_mux[0m
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target cmd_vel_mux_node[0m
+[0.118s] [ 50%] Built target cmd_vel_mux_node
+[0.121s] [100%] Built target cmd_vel_mux
+[0.135s] Invoked command in '/home/mcifuentesf/ros_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/cmd_vel_mux -- -j8 -l8
+[0.138s] Invoking command in '/home/mcifuentesf/ros_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/cmd_vel_mux
+[0.145s] -- Install configuration: ""
+[0.146s] -- Execute custom install script
+[0.147s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node
+[0.147s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/lib/libcmd_vel_mux.so
+[0.148s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/include/cmd_vel_mux/cmd_vel_mux.hpp
+[0.148s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/config/cmd_vel_mux_params.yaml
+[0.149s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-composed-launch.py
+[0.149s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-launch.py
+[0.150s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/ament_index/resource_index/package_run_dependencies/cmd_vel_mux
+[0.151s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/ament_index/resource_index/parent_prefix_path/cmd_vel_mux
+[0.152s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.sh
+[0.152s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.dsv
+[0.153s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.bash
+[0.153s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.sh
+[0.153s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.zsh
+[0.154s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.dsv
+[0.154s] -- Symlinking: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv
+[0.165s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/ament_index/resource_index/packages/cmd_vel_mux
+[0.165s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux
+[0.165s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig.cmake
+[0.165s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig-version.cmake
+[0.165s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.xml
+[0.169s] Invoked command in '/home/mcifuentesf/ros_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/cmd_vel_mux

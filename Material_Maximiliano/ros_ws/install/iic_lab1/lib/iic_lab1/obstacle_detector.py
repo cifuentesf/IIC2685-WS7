@@ -1,0 +1,1 @@
+/home/mcifuentesf/ros_ws/src/iic_lab1/scripts/obstacle_detector.py

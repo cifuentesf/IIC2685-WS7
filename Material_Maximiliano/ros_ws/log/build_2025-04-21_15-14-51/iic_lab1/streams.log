@@ -1,0 +1,26 @@
+[0.032s] Invoking command in '/home/mcifuentesf/ros_ws/build/iic_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/iic_lab1 -- -j8 -l8
+[0.077s] Invoked command in '/home/mcifuentesf/ros_ws/build/iic_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/iic_lab1 -- -j8 -l8
+[0.094s] Invoking command in '/home/mcifuentesf/ros_ws/build/iic_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/iic_lab1
+[0.106s] -- Install configuration: ""
+[0.107s] -- Execute custom install script
+[0.108s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/lib/iic_lab1/dead_reckoning_nav.py
+[0.108s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/lib/iic_lab1/obstacle_detector.py
+[0.109s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/launch/accion_y_percepcion.xml
+[0.109s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/launch/avanzar_y_rotar.xml
+[0.110s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/config/square_poses.txt
+[0.110s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/ament_index/resource_index/package_run_dependencies/iic_lab1
+[0.110s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/ament_index/resource_index/parent_prefix_path/iic_lab1
+[0.111s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/environment/ament_prefix_path.dsv
+[0.112s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/environment/path.sh
+[0.112s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/environment/path.dsv
+[0.113s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/local_setup.bash
+[0.113s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/local_setup.sh
+[0.113s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/local_setup.zsh
+[0.114s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/local_setup.dsv
+[0.114s] -- Symlinking: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.dsv
+[0.126s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/ament_index/resource_index/packages/iic_lab1
+[0.127s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/cmake/iic_lab1Config.cmake
+[0.127s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/cmake/iic_lab1Config-version.cmake
+[0.127s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.xml
+[0.129s] Invoked command in '/home/mcifuentesf/ros_ws/build/iic_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/iic_lab1

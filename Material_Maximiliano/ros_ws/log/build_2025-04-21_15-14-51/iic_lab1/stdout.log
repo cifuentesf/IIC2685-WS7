@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/lib/iic_lab1/dead_reckoning_nav.py
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/lib/iic_lab1/obstacle_detector.py
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/launch/accion_y_percepcion.xml
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/launch/avanzar_y_rotar.xml
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/config/square_poses.txt
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/ament_index/resource_index/package_run_dependencies/iic_lab1
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/ament_index/resource_index/parent_prefix_path/iic_lab1
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/environment/path.sh
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/environment/path.dsv
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/local_setup.bash
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/local_setup.sh
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/local_setup.zsh
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/local_setup.dsv
+-- Symlinking: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.dsv
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/ament_index/resource_index/packages/iic_lab1
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/cmake/iic_lab1Config.cmake
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/cmake/iic_lab1Config-version.cmake
+-- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/iic_lab1/share/iic_lab1/package.xml

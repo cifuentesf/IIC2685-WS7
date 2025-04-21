@@ -1,0 +1,54 @@
+[0.029s] Invoking command in '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/very_simple_robot_simulator -- -j8 -l8
+[0.108s] [  0%] Built target ament_cmake_python_symlink_very_simple_robot_simulator
+[0.110s] [ 50%] Built target lidar_simulator
+[0.110s] [100%] Built target kinect_simulator
+[0.450s] running egg_info
+[0.450s] writing very_simple_robot_simulator.egg-info/PKG-INFO
+[0.451s] writing dependency_links to very_simple_robot_simulator.egg-info/dependency_links.txt
+[0.451s] writing top-level names to very_simple_robot_simulator.egg-info/top_level.txt
+[0.455s] reading manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[0.456s] writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[0.481s] [100%] Built target ament_cmake_python_build_very_simple_robot_simulator_egg
+[0.490s] Invoked command in '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mcifuentesf/ros_ws/build/very_simple_robot_simulator -- -j8 -l8
+[0.493s] Invoking command in '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/very_simple_robot_simulator
+[0.500s] -- Install configuration: ""
+[0.500s] -- Execute custom install script
+[0.501s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator
+[0.502s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator
+[0.502s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.sh
+[0.503s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.dsv
+[0.503s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/PKG-INFO
+[0.504s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.504s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.505s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/top_level.txt
+[0.505s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py
+[0.506s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator.py
+[0.506s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kobuki_simulator.py
+[0.506s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator.py
+[0.507s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/rangefinder.py
+[0.507s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/utils.py
+[0.507s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/world_state_gui.py
+[0.508s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/lidar_simulator.xml
+[0.508s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator.xml
+[0.509s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator_py.xml
+[0.509s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator.xml
+[0.510s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator_py.xml
+[0.510s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/run_all.xml
+[0.510s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/world_state.xml
+[0.511s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/package_run_dependencies/very_simple_robot_simulator
+[0.511s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/parent_prefix_path/very_simple_robot_simulator
+[0.511s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.sh
+[0.512s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.dsv
+[0.512s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.sh
+[0.512s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.dsv
+[0.513s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.bash
+[0.513s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.sh
+[0.514s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.zsh
+[0.514s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.dsv
+[0.514s] -- Symlinking: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv
+[0.523s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/packages/very_simple_robot_simulator
+[0.523s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig.cmake
+[0.524s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig-version.cmake
+[0.524s] -- Up-to-date symlink: /home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.xml
+[0.551s] Listing '/home/mcifuentesf/ros_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator'...
+[0.556s] Invoked command in '/home/mcifuentesf/ros_ws/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcifuentesf/ros2_ws/install/py_pubsub:/home/mcifuentesf/ros2_ws/install/my_turtlebot:/home/mcifuentesf/ros2_ws/install/mi_chatter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mcifuentesf/ros_ws/build/very_simple_robot_simulator

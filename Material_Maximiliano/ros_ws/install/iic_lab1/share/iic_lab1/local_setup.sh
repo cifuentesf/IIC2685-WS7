@@ -1,0 +1,1 @@
+/home/mcifuentesf/ros_ws/build/iic_lab1/ament_cmake_environment_hooks/local_setup.sh
