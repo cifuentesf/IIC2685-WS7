@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- Lanzar el simulador -->
+  <include file="$(find-pkg-share very_simple_robot_simulator)/launch/minimal_simulator_py.xml" />
+  <include file="$(find-pkg-share very_simple_robot_simulator)/launch/lidar_simulator.xml" />
+  <include file="$(find-pkg-share very_simple_robot_simulator)/launch/world_state.xml" />
+
+  <!-- Lanzar nodos Python -->
+  <node pkg="lab1" exec="nodo_dead_reckoning_nav.py" output="screen" />
+  <node pkg="lab1" exec="nodo_pose_loader.py" output="screen" />
+
+</launch>

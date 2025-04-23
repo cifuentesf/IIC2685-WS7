@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/gaspar/ros2_ws/install/cmd_vel_mux/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/gaspar/ros2_ws/src/basics/include/**",
+        "/home/gaspar/ros2_ws/src/cmd_vel_mux/include/**",
+        "/home/gaspar/ros2_ws/src/lab1/include/**",
+        "/home/gaspar/ros2_ws/src/mini_tarea_1/include/**",
+        "/home/gaspar/ros2_ws/src/very_simple_robot_simulator/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
